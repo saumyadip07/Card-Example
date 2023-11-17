@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#card{
+    height: 650px;
+    width: 500px;
+    background-color: pink;
+    border: 2px solid black;
+    position: fixed;
+    top: 50px;
+    bottom: 10px;
+    left: 450px;
+
+
+    border-radius: 10%;
+}
+
+#upper-card{
+
+    height: 35%;
+    width: 100%;
+    /* position: absolute;
+    left: 5%;
+    top: 2%;
+    background-image: url("ant.jpg");
+    background-size: cover;
+     */
+}
+
+img{
+    height: 100%;
+    width:100% ;
+
+    background-size: cover;
+    border-top-left-radius: 53px;
+    border-top-right-radius: 53px;
+}
+
+#middle-card{
+    height: 150px;
+    width: 150px;
+    
+    border-radius: 50%;
+    position: absolute;
+    left: 180px;
+    top: 180px;
+    background-image: url("humanCartoon.jpg");
+    background-size: cover;
+}
+
+#lower-card{
+    position: relative;
+    top: 15%;
+}
+
+#name{
+    text-align: center;
+}
+
+h3{
+    color: aqua;
+}
+
+.follow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.follow span{
+    font-size: 25px;
+    color: blue;
+}
+
+button{
+
+    width: 80%;
+    height: 50px;
+    margin-left: 45px;
+    margin-top: 20px;
+    background-color: yellow;
+    color: cadetblue;
+    font-size: large;
+}
+
+.story {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+    /* background-color: aliceblue; */
+    color: rgb(82, 84, 86);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
